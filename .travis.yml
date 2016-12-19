@@ -8,6 +8,7 @@ before_install:
   - brew install apr apr-util
   - brew install netpbm
   - brew doctor
+  - brew config
 
 script:
   - ls -la /usr/local/lib/libnetpbm*
