@@ -10,4 +10,5 @@ before_install:
   - brew doctor
 
 script:
-  - ls -lart /usr/local/lib/libnetpbm*
+  - ls -la /usr/local/lib/libnetpbm*
+  - ls -la /usr/local/Cellar/netpbm/10.76_1/lib/
