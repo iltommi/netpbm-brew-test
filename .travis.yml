@@ -4,9 +4,10 @@ os: osx
 
 before_install:
   - brew update
+  - brew update
   - brew install apr apr-util
   - brew install netpbm
   - brew doctor
 
 script:
-- ls -lart /usr/local/lib/libnetpbm*
+  - ls -lart /usr/local/lib/libnetpbm*
