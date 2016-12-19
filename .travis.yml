@@ -9,4 +9,4 @@ before_install:
   - brew doctor
 
 script:
-- ls -lart /usr/local/lib
+- ls -lart /usr/local/lib/libnetpbm*
