@@ -1,7 +1,6 @@
 language: cpp
 
 os: osx
-osx_image: xcode7.3
 
 before_install:
   - brew update
@@ -10,4 +9,4 @@ before_install:
   - brew gist-logs netpbm
 
 script:
-- echo "End"
+- ls -lart /usr/local/lib
