@@ -7,7 +7,6 @@ before_install:
   - brew install apr apr-util
   - brew install netpbm
   - brew doctor
-  - brew gist-logs netpbm
 
 script:
 - ls -lart /usr/local/lib
