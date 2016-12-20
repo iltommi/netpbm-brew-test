@@ -6,13 +6,13 @@ before_install:
   - brew update
   - brew update
   - brew install apr apr-util
-  - brew install netpbm
+  - brew install --build-from-source netpbm
   - brew doctor
   - brew config
-  - brew reinstall --build-from-source netpbm
 
 
 script:
   - ls -la /usr/local/lib/libnetpbm*
   - ls -la /usr/local/Cellar/netpbm/10.76_1/lib/
-  - ls -la ~/Library/Caches/Homebrew/netpbm--svn/lib
+  - find ~/Library/Caches/Homebrew/netpbm--svn/lib
+  - find /usr/local/Cellar/netpbm/10.76_1
