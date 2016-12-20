@@ -6,7 +6,7 @@ before_install:
   - brew update
   - brew update
   - brew install apr apr-util
-  - brew install --build-from-source netpbm
+  - brew install --build-from-source --keep-tmp netpbm
   - brew doctor
   - brew config
 
