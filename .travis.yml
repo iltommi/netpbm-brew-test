@@ -9,7 +9,10 @@ before_install:
   - brew install netpbm
   - brew doctor
   - brew config
+  - brew reinstall --build-from-source netpbm
+
 
 script:
   - ls -la /usr/local/lib/libnetpbm*
   - ls -la /usr/local/Cellar/netpbm/10.76_1/lib/
+  - ls -la ~/Library/Caches/Homebrew/netpbm--svn/lib
