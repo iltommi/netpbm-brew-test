@@ -16,3 +16,4 @@ script:
   - ls -la /usr/local/Cellar/netpbm/10.76_1/lib/
   - find ~/Library/Caches/Homebrew/netpbm--svn/lib
   - find /usr/local/Cellar/netpbm/10.76_1
+  - find /tmp/netpbm*
